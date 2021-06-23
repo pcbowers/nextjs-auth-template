@@ -1,6 +1,8 @@
 import NextAuth from 'next-auth'
 import Providers from 'next-auth/providers'
 
+require("mongodb");
+
 const options = {
     providers: [
         Providers.Google({
