@@ -4,8 +4,8 @@ import Providers from 'next-auth/providers'
 const options = {
     providers: [
         Providers.Google({
-            clientId: process.env.GOOGLE_ID,
-            clientSecret: process.env.GOOGLE_SECRET
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_SECRET_ID
         }),
     ],
 }
